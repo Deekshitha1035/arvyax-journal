@@ -22,7 +22,7 @@ A full-stack journaling platform that blends nature-immersive wellness sessions 
 
 ### Prerequisites
 - Node.js 18+
-- An [Anthropic API key](https://console.anthropic.com/)
+- An [API key](https://console.anthropic.com/)
 
 ### 1. Clone & Configure
 
@@ -35,7 +35,7 @@ cd arvyax-journal
 ```bash
 cd backend
 cp .env.example .env
-# Edit .env and set ANTHROPIC_API_KEY=your_key_here
+# Edit .env and set API_KEY=your_key_here
 ```
 
 ### 2. Install & Run Backend
@@ -61,7 +61,7 @@ npm start
 ```bash
 # Copy and fill in your API key
 cp .env.example .env
-echo "ANTHROPIC_API_KEY=your_key_here" > .env
+echo "API_KEY=your_key_here" > .env
 
 docker-compose up --build
 # Frontend: http://localhost:3000
@@ -210,7 +210,7 @@ arvyax-journal/
 
 | Variable          | Required | Description                          |
 |-------------------|----------|--------------------------------------|
-| `ANTHROPIC_API_KEY` | ✅      | Your Anthropic API key               |
+| `API_KEY`         | ✅       |  API key                             |
 | `PORT`            | ❌       | Backend port (default: 3001)         |
 | `FRONTEND_URL`    | ❌       | CORS origin (default: localhost:3000)|
 | `DB_PATH`         | ❌       | SQLite file path                     |
