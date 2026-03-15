@@ -160,7 +160,6 @@ Aggregated mental health insights.
 
 ---
 
-![Output Screenshot](Screenshot 2026-03-12 131412.png)
 
 
 
