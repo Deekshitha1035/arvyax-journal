@@ -159,7 +159,9 @@ Aggregated mental health insights.
 ```
 
 ---
-##OUTPUT:
+
+![Output Screenshot](C:\Users\deeks\Pictures\Screenshot 2026-03-12 131412.png)
+
 
 
 ## 🛠 Tech Stack
