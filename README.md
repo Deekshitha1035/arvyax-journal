@@ -160,7 +160,7 @@ Aggregated mental health insights.
 
 ---
 
-![Output Screenshot](C:\Users\deeks\Pictures\Screenshot 2026-03-12 131412.png)
+![Output Screenshot]("C:\Users\deeks\Pictures\Screenshot 2026-03-12 131412.png")
 
 
 
